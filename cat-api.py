@@ -12,6 +12,6 @@ if response.status_code == 200:
     
    
     for cat in data:
-        print("URL da imagem de gato:", cat["url"])
+        print("Clique aqui para alegrar seu dia:", cat["url"])
 else:
     print(f"Erro ao acessar a API. Status Code: {response.status_code}")
