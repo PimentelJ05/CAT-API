@@ -1,6 +1,6 @@
 import requests
 
-url = "https://api.thecatapi.com/v1/images/search?api_key=live_DHcdF4TZpDRP5RMHY5VNj86NQkehhW26qXZBTN0SANB2ARCYgWO2b7WeuISDC9Yu"
+url = "https://api.thecatapi.com/v1/images/search?limit=20&api_key=live_DHcdF4TZpDRP5RMHY5VNj86NQkehhW26qXZBTN0SANB2ARCYgWO2b7WeuISDC9Yu"
 
 
 response = requests.get(url)
